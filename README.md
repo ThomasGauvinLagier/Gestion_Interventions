@@ -79,6 +79,8 @@ Repo privé — Code source non public.
 - Modifier son nom prénom et adresse mail
 - Modifier son mot de passe
 
+![Compte](AppImages/Compte.png)
+
 ![Profil](AppImages/Profil.png)
 
 
