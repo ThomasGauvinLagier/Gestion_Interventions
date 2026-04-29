@@ -9,7 +9,7 @@ Repo privé — Code source non public.
 # Fonctionnalités
 
 ## Page Tableau de bord
-
+![TableauDeBord](AppImages/TableauDeBord.png)
 - Suivi des interventions réparties en 6 statuts : À faire, En cours, En attente, Terminé, Rendu à facturer, RMA
 - Changement de statut directement depuis les cartes en drag and drop
 - Affichage d'informations préremplis dans création Client
