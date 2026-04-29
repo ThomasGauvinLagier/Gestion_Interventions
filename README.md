@@ -9,7 +9,7 @@ Repo privé — Code source non public.
 # Fonctionnalités
 
 ## Page Tableau de bord
-![TableauDeBord](AppImages/TableauDeBord.png)
+
 - Suivi des interventions réparties en 6 statuts : À faire, En cours, En attente, Terminé, Rendu à facturer, RMA
 - Changement de statut directement depuis les cartes en drag and drop
 - Affichage d'informations préremplis dans création Client
@@ -17,12 +17,21 @@ Repo privé — Code source non public.
 - Affichage mot de passe (demande interne)
 - Bouton message Téléphone Pré-definis Bouton SMS pré-definis, bouton ticket impression et bouton archivage (seulement dans terminer)
 - Bouton nouveau client qui dirige sur la page client, bouton nouvelle intervention qui dirige sur la page création
+![TableauDeBord](AppImages/TableauDeBord.png)
+![CompteRendu](AppImages/CompteRendu.png)
+![Modification](AppImages/Modification.png)
 
 ## Page Création
 
 - Barre de recherche client
 - Ajout de plusieurs materiels par client avec leurs informations
 - Création d'intervention avec informations apres avoir séléctionner un materiel
+
+![Création](AppImages/Création.png)
+![Materiel](AppImages/Materiel.png)
+![CreationIntervention](AppImages/CreationIntervention.png)
+
+
 
 ## Page Client
 
@@ -31,11 +40,20 @@ Repo privé — Code source non public.
 - Création/Modification/Supression Client
 - Ajout d'informations
 
+![Clients](AppImages/Clients.png)
+![Particuler](AppImages/Particuler.png)
+![Professionnel](AppImages/Professionnel.png)
+![Champ](AppImages/Champ.png)
+
+
 ## Page Archives
 
 - Barre de recherche client
 - Affichage d'interventions archivées avec possibilité de la modifier/suprimmer
 - Affichage des informations sur l'intervention
+
+![Archives](AppImages/Archives.png)
+
 
 ## Page Paramètres
 
@@ -44,19 +62,34 @@ Repo privé — Code source non public.
 - Gestion des SMS prédéfinis et messages téléphoniques
 - Configuration des Statuts (Ajout et supression)
 
+![Techniciens](AppImages/Techniciens.png)
+![Referentiels](AppImages/Referentiels.png)
+![SMS-Telephone](AppImages/SMS-Telephone.png)
+![Statut](AppImages/Statut.png)
+
+
 ## Page Imprimmer
 
 - Imprimmer un ticket avec informations materiel/client + id unique
+![ImprimmerTicket](AppImages/ImprimmerTicket.png)
+
 
 ## Page Mon Profil
 
 - Modifier son nom prénom et adresse mail
 - Modifier son mot de passe
 
+![Profil](AppImages/Profil.png)
+
+
 ## Page Se connecter
 
 - Entrer Mail et Mot de passe
 - Possibilité de reinitialiser son mot de passe et de se souveir des ids
+
+![SeConnecter](AppImages/SeConnecter.png)
+![MdpOublié](AppImages/MdpOublié.png)
+
 
 A FAIRE
 
