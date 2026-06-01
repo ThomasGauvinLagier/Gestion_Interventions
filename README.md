@@ -12,59 +12,84 @@ Repo privé — Code source non public.
 
 - Suivi des interventions réparties en 6 statuts : À faire, En cours, En attente, Terminé, Rendu à facturer, RMA
 - Changement de statut directement depuis les cartes en drag and drop
-- Affichage d'informations préremplis dans création Client
-- Ajout commentaire dans l'intervention
-- Affichage mot de passe (demande interne)
-- Bouton message Téléphone Pré-definis Bouton SMS pré-definis, bouton ticket impression et bouton archivage (seulement dans terminer)
+- Affichage d'informations préremplis quand on clique sur l'intervention + commentaire champ libre
+- Bouton message Téléphone Pré-definis Bouton SMS pré-definis, bouton ticket impression, bouton urgent pour changer couleur et bouton archivage (seulement dans terminer)
 - Bouton nouveau client qui dirige sur la page client, bouton nouvelle intervention qui dirige sur la page création
 ![TableauDeBord](AppImages/TableauDeBord.png)
+-Résumé de l'intervention
+-Champ pieces et Champ Main d'oeuvre permettant de mettre un prix.
 ![CompteRendu](AppImages/CompteRendu.png)
+-Affichage d'infos Clients/Materiel
+-Possibilité de modifier les infos de l'intervention
 ![Modification](AppImages/Modification.png)
 
 ## Page Création
 
-- Barre de recherche client
-- Ajout de plusieurs materiels par client avec leurs informations
+- Barre de recherche client avec pagination
 - Création d'intervention avec informations apres avoir séléctionner un materiel
-
 ![Création](AppImages/Création.png)
+- Ajout de plusieurs materiels par catégories etg par types dans une catégorie en montrant les champs précis au type choisis.
+- Création/Modification/Supression Materiel
 ![Materiel](AppImages/Materiel.png)
+-Création de l'intervention avec différents champs 
 ![CreationIntervention](AppImages/CreationIntervention.png)
 
 
 
 ## Page Client
 
-- Barre de recherche client
-- Selection Particulier/Professionnel
+- Barre de recherche client avec pagination
 - Création/Modification/Supression Client
 - Ajout d'informations
-
+- Champs ayant des restrictions précises
 ![Clients](AppImages/Clients.png)
+- Selection Particulier/Professionnel
 ![Particuler](AppImages/Particuler.png)
 ![Professionnel](AppImages/Professionnel.png)
-![Champ](AppImages/Champ.png)
 
 
 ## Page Archives
 
-- Barre de recherche client
+- Barre de recherche client avec pagination
 - Affichage d'interventions archivées avec possibilité de la modifier/suprimmer
 - Affichage des informations sur l'intervention
 
+
 ![Archives](AppImages/Archives.png)
+
+## Page Ordinateurs
+
+- Barre de recherche Ordinateurs avec pagination
+- Créer les ordinateurs que la boite reçois et stock
+![Ordinateurs](AppImages/Ordinateurs.png)
+- Assigner l'ordinateur vendu à la personne
+![AssignerOrdi](AppImages/AssignerOrdi.png)
+
+
+## Page SMS
+
+-Recherche de clients par filtre(de tel mois/années à tel mois/années)/nom/numéro libre
+-Envoie de Sms avec OVH
+
+![Sms](AppImages/Sms.png)
 
 
 ## Page Paramètres
 
 - Gestion des techniciens (admin uniquement)
-- Configuration des référentiels (Ajout et supression)
-- Gestion des SMS prédéfinis et messages téléphoniques
-- Configuration des Statuts (Ajout et supression)
-
+- 
 ![Techniciens](AppImages/Techniciens.png)
+- Configuration des référentiels (Ajout et supression)
+
 ![Referentiels](AppImages/Referentiels.png)
+- Configuration des Materiels (Catégories, Types, Champs)
+
+![MaterielParam](AppImages/MaterielParam.png)
+- COnfiguration des SMS prédéfinis et messages téléphoniques
+
 ![SMS-Telephone](AppImages/SMS-Telephone.png)
+- Configuration des Statuts (Ajout, supression, Message public)
+
 ![Statut](AppImages/Statut.png)
 
 
@@ -72,6 +97,14 @@ Repo privé — Code source non public.
 
 - Imprimmer un ticket avec informations materiel/client + id unique
 ![ImprimmerTicket](AppImages/ImprimmerTicket.png)
+
+## Page Suivi(public)
+
+-Rentrer Son id unique pour suivre son intervention
+-Savoir ou en est l'intervention
+
+![Suivi](AppImages/Suivi.png)
+![SuiviEx](AppImages/SuiviEx.png)
 
 
 ## Page Mon Profil
@@ -93,13 +126,6 @@ Repo privé — Code source non public.
 ![MdpOublié](AppImages/MdpOublié.png)
 
 
-A FAIRE
-
-## Page Intervention site vitrine
-
-- Le client pourra en rentrant son ID d'intervention voir ou en est son intervention via les statuts.
-
-## Mettre en place OVH SMS + Stelogy pour tracer les appels
 
 # Stack technique
 
