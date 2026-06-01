@@ -21,7 +21,9 @@ Repo privé — Code source non public.
 ![CompteRendu](AppImages/CompteRendu.png)
 -Affichage d'infos Clients/Materiel
 -Possibilité de modifier les infos de l'intervention
-![Modification](AppImages/Modification.png)
+![Modification1](AppImages/Modification1.png)
+![Modification2](AppImages/Modification2.png)
+
 
 ## Page Création
 
