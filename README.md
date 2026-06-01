@@ -45,7 +45,9 @@ Repo privé — Code source non public.
 - Ajout d'informations
 - Champs ayant des restrictions précises
 ![Clients](AppImages/Clients.png)
+
 - Selection Particulier/Professionnel
+
 ![ChampParticuler](AppImages/ChampParticulier.png)
 ![ChampProfessionnel](AppImages/ChampProfessionnel.png)
 
