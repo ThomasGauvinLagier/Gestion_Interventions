@@ -4,7 +4,7 @@ Application web interne de gestion des interventions techniques pour un prestata
 
 Développée en remplacement d'une solution legacy PHP 2014, suite à un audit complet de l'existant.
 
-Repo privé — Code source non public.
+Repo privé - Code source non public.
 
 # Fonctionnalités
 
